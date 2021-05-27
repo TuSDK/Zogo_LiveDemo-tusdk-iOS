@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BIs-YL-cby">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ZegoExpressAudioExample-->
+        <scene sceneID="NGf-WE-gjT">
+            <objects>
+                <tableViewController id="6n3-RP-LWZ" customClass="ZGTopicsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7ab-PX-EpO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <stackView key="tableHeaderView" opaque="NO" contentMode="scaleToFill" distribution="fillEqually" id="kzY-P1-y58">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nw-vF-V6i">
+                                    <rect key="frame" x="0.0" y="0.0" width="138" height="44"/>
+                                    <state key="normal" title="Doc Link"/>
+                                    <connections>
+                                        <action selector="onOpenDocWeb:" destination="6n3-RP-LWZ" eventType="touchUpInside" id="OHx-O9-wyN"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pI1-hX-8Og">
+                                    <rect key="frame" x="138" y="0.0" width="138" height="44"/>
+                                    <state key="normal" title="Download Code"/>
+                                    <connections>
+                                        <action selector="onOpenDownloadCode:" destination="6n3-RP-LWZ" eventType="touchUpInside" id="VMR-DY-0Gf"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3p-T9-aDH">
+                                    <rect key="frame" x="276" y="0.0" width="138" height="44"/>
+                                    <state key="normal" title="FAQ"/>
+                                    <connections>
+                                        <action selector="onOpenFAQ:" destination="6n3-RP-LWZ" eventType="touchUpInside" id="osk-5N-gBQ"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZGTopicCell" id="o6t-p5-5Qx">
+                                <rect key="frame" x="0.0" y="72" width="414" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="o6t-p5-5Qx" id="cho-Tq-vUT">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="6n3-RP-LWZ" id="z7h-ib-mMi"/>
+                            <outlet property="delegate" destination="6n3-RP-LWZ" id="Rlf-6b-EzR"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="ZegoExpressAudioExample" id="aJa-9o-qUc"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49u-jy-trL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1897.1014492753625" y="116.57608695652175"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8aH-2h-Qk5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BIs-YL-cby" customClass="ZGNavigationController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PYa-zU-PMp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6n3-RP-LWZ" kind="relationship" relationship="rootViewController" id="riL-dG-bX6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Fk-Q9-DDA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="989.85507246376824" y="116.57608695652175"/>
+        </scene>
+    </scenes>
+</document>
