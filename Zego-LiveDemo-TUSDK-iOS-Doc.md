@@ -9,8 +9,8 @@ iOS 应用的包名是 Bundle Identifier，它定义在 Project Target 中的 Bu
 
 ### 2.秘钥（AppKey）
 
-* 替换 TuSDK 初始化中的秘钥（AppKey），`AppDelegate.m`中引入 #import <TuSDK/TuSDK.h>。
-* 进行初始化 [TuSDK initSdkWithAppKey:@"xxxxxx5d12xxxxxx-04-xxxxxx"];
+* 替换 TuSDK 初始化中的秘钥（AppKey），`AppDelegate.m`中引入 #import <TuSDKManager.h>
+* 进行初始化 [[TuSDKManager sharedManager] initSdkWithAppKey:@"*******-04-******"];;
 
 
 ### 3.资源文件
@@ -22,7 +22,7 @@ iOS 应用的包名是 Bundle Identifier，它定义在 Project Target 中的 Bu
 ### 4.文件替换操作
 
 * 替换 AppKey 至 TuSDK init 初始化方法中秘钥（AppKey）。
-* 将解压缩后的文件替换 **TuSDK.bundle**  文件中的对应文件。
+* 将解压缩后的文件替换 **TuSDKPulse.bundle**  文件中的对应文件。
 * TuSDK.bundle文件介绍：
 
 （1）model 文件，鉴权文件，必须保留。
@@ -49,9 +49,9 @@ iOS 应用的包名是 Bundle Identifier，它定义在 Project Target 中的 Bu
 1、将示例工程源码中以下文件拖入到 Xcode 项目中
 
 * `libyuv.framework` ：核心库
-* `TuSDK.framework`：核心库
-* `TuSDKVideo.framework`：视频处理库
-* `TuSDKFace.framework`：人脸识别库
+* `TuSDKPulse.framework`：核心库
+* `TuSDKPulseCore.framework`：核心库
+* `TuSDKPulseFilter.framework`：核心库
 * `Localized`：`TuSDK.strings` 为项目语言文件。（如有自己的语言文件可以自行配置文案显示）
 * `TuSDK.bundle` ：为项目资源文件，包含滤镜，动态贴纸等文件。
 * `images`:为项目缩略图（效果图）、UI风格切图资源文件，展示UI布局切图、滤镜，场景特效的效果封面图等图片资源。
