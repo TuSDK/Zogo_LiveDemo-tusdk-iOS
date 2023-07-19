@@ -13,17 +13,17 @@
 // Developers can get appID from admin console.
 // https://console.zego.im/dashboard
 // for example: 123456789;
-static unsigned int _appID = 111;
+static unsigned int _appID = ;
 
 // Developers should customize a user ID.
 // for example: @"zego_benjamin";
-static NSString *_userID = @"111";
+static NSString *_userID = @"";
 
 // Developers can get token from admin console.
 // https://console.zego.im/dashboard
 // Note: The user ID used to generate the token needs to be the same as the userID filled in above!
 // for example: @"04AAAAAxxxxxxxxxxxxxx";
-static NSString *_token = @"111";
+static NSString *_token = @"";
 
 + (unsigned int)appID {
     return _appID;

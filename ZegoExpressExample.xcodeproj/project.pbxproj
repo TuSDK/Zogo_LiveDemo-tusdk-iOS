@@ -13,8 +13,6 @@
 		036D9E7D26CF4A2300CCC642 /* H265.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036D9E7C26CF4A2300CCC642 /* H265.storyboard */; };
 		036D9E8026CF4B2B00CCC642 /* ZGH265LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D9E7F26CF4B2B00CCC642 /* ZGH265LoginViewController.m */; };
 		036D9E8326CF4B6100CCC642 /* ZGH265ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D9E8226CF4B6100CCC642 /* ZGH265ViewController.m */; };
-		03C2B53027842CCF00A09CA5 /* ZegoExpressEngine.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C2B52E27842CAC00A09CA5 /* ZegoExpressEngine.xcframework */; };
-		03C2B53127842CCF00A09CA5 /* ZegoExpressEngine.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03C2B52E27842CAC00A09CA5 /* ZegoExpressEngine.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		86004C972518E49E00AAB430 /* ZGScreenCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86004C962518E49E00AAB430 /* ZGScreenCaptureManager.m */; };
 		86070D2425271892007C70AE /* ZGVoiceChangeReverbStereoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86070D2325271892007C70AE /* ZGVoiceChangeReverbStereoViewController.m */; };
 		86070D28252718BB007C70AE /* ZGAudioPreprocessConfigTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86070D27252718BB007C70AE /* ZGAudioPreprocessConfigTableViewController.m */; };
@@ -170,6 +168,8 @@
 		86F3933426BE6AD8005A70A5 /* ZGAutoMixerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F3933326BE6AD8005A70A5 /* ZGAutoMixerViewController.m */; };
 		86F6058924AB1D960034C137 /* RecordCapture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F6058824AB1D960034C137 /* RecordCapture.storyboard */; };
 		86F6058C24AB1DAF0034C137 /* ZGRecordCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F6058B24AB1DAF0034C137 /* ZGRecordCaptureViewController.m */; };
+		A68D7D752A67F16F00CCAA8C /* ZegoExpressEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68D7D732A67F0F700CCAA8C /* ZegoExpressEngine.framework */; };
+		A68D7D762A67F17000CCAA8C /* ZegoExpressEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A68D7D732A67F0F700CCAA8C /* ZegoExpressEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A6FC1BF3281525E700E20A88 /* TTRenderDef.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC1998281525E400E20A88 /* TTRenderDef.m */; };
 		A6FC1BF4281525E700E20A88 /* TTImageConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC199A281525E400E20A88 /* TTImageConvert.m */; };
 		A6FC1BF5281525E700E20A88 /* TTBeautyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC199B281525E400E20A88 /* TTBeautyManager.m */; };
@@ -726,8 +726,8 @@
 				F10F9DB9272ABDA9009A4343 /* ZipArchive.xcframework in Embed Frameworks */,
 				A6FC1E022815280600E20A88 /* TuSDKPulseCore.framework in Embed Frameworks */,
 				A6FC1E002815280500E20A88 /* TuSDKPulse.framework in Embed Frameworks */,
-				03C2B53127842CCF00A09CA5 /* ZegoExpressEngine.xcframework in Embed Frameworks */,
 				A6FC1E042815280700E20A88 /* TuSDKPulseFilter.framework in Embed Frameworks */,
+				A68D7D762A67F17000CCAA8C /* ZegoExpressEngine.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -756,7 +756,6 @@
 		036D9E7F26CF4B2B00CCC642 /* ZGH265LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGH265LoginViewController.m; sourceTree = "<group>"; };
 		036D9E8126CF4B4E00CCC642 /* ZGH265ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGH265ViewController.h; sourceTree = "<group>"; };
 		036D9E8226CF4B6100CCC642 /* ZGH265ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGH265ViewController.m; sourceTree = "<group>"; };
-		03C2B52E27842CAC00A09CA5 /* ZegoExpressEngine.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ZegoExpressEngine.xcframework; sourceTree = "<group>"; };
 		86004C952518E49E00AAB430 /* ZGScreenCaptureManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGScreenCaptureManager.h; sourceTree = "<group>"; };
 		86004C962518E49E00AAB430 /* ZGScreenCaptureManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGScreenCaptureManager.m; sourceTree = "<group>"; };
 		86070D2225271892007C70AE /* ZGVoiceChangeReverbStereoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGVoiceChangeReverbStereoViewController.h; sourceTree = "<group>"; };
@@ -1028,6 +1027,7 @@
 		86F6058824AB1D960034C137 /* RecordCapture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecordCapture.storyboard; sourceTree = "<group>"; };
 		86F6058A24AB1DAF0034C137 /* ZGRecordCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGRecordCaptureViewController.h; sourceTree = "<group>"; };
 		86F6058B24AB1DAF0034C137 /* ZGRecordCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGRecordCaptureViewController.m; sourceTree = "<group>"; };
+		A68D7D732A67F0F700CCAA8C /* ZegoExpressEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZegoExpressEngine.framework; sourceTree = "<group>"; };
 		A6FC1998281525E400E20A88 /* TTRenderDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRenderDef.m; sourceTree = "<group>"; };
 		A6FC1999281525E400E20A88 /* TTLiveMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLiveMediator.h; sourceTree = "<group>"; };
 		A6FC199A281525E400E20A88 /* TTImageConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImageConvert.m; sourceTree = "<group>"; };
@@ -1618,8 +1618,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6FC1E032815280700E20A88 /* TuSDKPulseFilter.framework in Frameworks */,
-				03C2B53027842CCF00A09CA5 /* ZegoExpressEngine.xcframework in Frameworks */,
 				F10F9DB8272ABDA9009A4343 /* ZipArchive.xcframework in Frameworks */,
+				A68D7D752A67F16F00CCAA8C /* ZegoExpressEngine.framework in Frameworks */,
 				F154C7FB273BB421001B98AA /* VideoToolbox.framework in Frameworks */,
 				A6FC1DFF2815280500E20A88 /* TuSDKPulse.framework in Frameworks */,
 				A6FC1E012815280600E20A88 /* TuSDKPulseCore.framework in Frameworks */,
@@ -1887,7 +1887,7 @@
 		8608C45E236327B800CE367B /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				03C2B52E27842CAC00A09CA5 /* ZegoExpressEngine.xcframework */,
+				A68D7D732A67F0F700CCAA8C /* ZegoExpressEngine.framework */,
 			);
 			path = Libs;
 			sourceTree = "<group>";

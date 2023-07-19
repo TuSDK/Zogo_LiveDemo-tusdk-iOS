@@ -86,7 +86,7 @@
 }
 
 - (void)setDebugVerbose:(BOOL)enable language:(ZegoLanguage)language {
-    [[ZegoExpressEngine sharedEngine] setDebugVerbose:enable language:language];
+//    [[ZegoExpressEngine sharedEngine] setDebugVerbose:enable language:language];
     ZGLogInfo(@"📬 set debug verbose:%d, language:%@", enable, language == ZegoLanguageEnglish ? @"English" : @"中文");
     [self.dataSource onActionLog:[NSString stringWithFormat:@"📬 set debug verbose:%d, language:%@", enable, language == ZegoLanguageEnglish ? @"English" : @"中文"]];
 }

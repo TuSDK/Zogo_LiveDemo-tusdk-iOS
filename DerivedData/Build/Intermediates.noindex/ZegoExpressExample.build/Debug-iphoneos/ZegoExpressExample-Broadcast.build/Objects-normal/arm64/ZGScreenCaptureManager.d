@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/ZegoExpressExample/Examples/Others/ScreenSharing/ZegoExpressExample-Broadcast/ZGScreenCaptureManager.m \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/ZegoExpressExample/Examples/Others/ScreenSharing/ZegoExpressExample-Broadcast/ZGScreenCaptureManager.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Modules/module.modulemap \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEventHandler.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressDefines.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressErrorCode.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+AudioEffectPlayer.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+AudioVADClient.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+CopyrightedMusic.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+CustomAudioIO.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+CustomVideoIO.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+Device.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+IM.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+MediaPlayer.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+Mixer.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+Player.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+Preprocess.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+Publisher.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+RangeAudio.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+RangeScene.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+Record.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+ReplayKit.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+Room.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+ScreenCapture.h \
+  /Users/liupengcheng/Documents/YuanFan/即构/Zogo_LiveDemo-tusdk-iOS/Libs/ZegoExpressEngine.framework/Headers/ZegoExpressEngine+Utilities.h
